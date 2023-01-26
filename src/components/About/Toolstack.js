@@ -1,11 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
+  SiFigma,
+  SiGooglechrome,
   SiLinux,
   SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
+  // SiPostman,
+  // SiHeroku,
+  // SiVercel,
+  SiWindows,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -15,9 +18,20 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiWindows />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglechrome />
+      </Col>
+     
+
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -25,7 +39,7 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
-      </Col>
+      </Col> */}
     </Row>
   );
 }

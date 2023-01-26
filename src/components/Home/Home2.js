@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/potokucakep.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,9 +16,17 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
+              I fell in love with programming and I have at least learnt
+              something, I think… 🤷‍♂️
+              <br />
+              <br />  My name is Ingrid Rorez Dialusi Sinurat. I am a undergraduate student of batch 2020 at <b className="blue"> vocational school of Gadjah Mada University</b>, studying in technology field specifically <b className="blue"> Internet Engineering Technology. </b> 
+              <br />
+               <br /> I am a committed and passionate student who loves exploring new things. I am very interested in developing myself in the field of <b className="blue">network engineering and IT development, especially in  Web Development </b>  
+               </p>
+            {/* <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
@@ -50,7 +58,7 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
-            </p>
+            </p> */}
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -67,7 +75,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Ingridrorez/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/IngridRorez"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +95,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/ingridrorez/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +105,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/ingridrorez/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
